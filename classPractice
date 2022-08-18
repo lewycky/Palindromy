@@ -1,0 +1,30 @@
+class businessCard:
+    def __init__(self, name, second_name, company_name, position, email):
+        self.name = name
+        self.second_name = second_name
+        self.company_name = company_name
+        self.position = position
+        self.email = email
+
+#def loopreturn(self):
+ #       return self.name + " " + self.second_name +  " " + self.email    
+
+
+
+card_1=businessCard("Rafał", "Kucharski", "Adiatic Solution","Audio control engineer","RafałKucharski@dayrep.com")
+card_2=businessCard("Maciej", "Iwańczuk", "Bose Audio System", "salsman", "MaciejIwanczuk@gmail.com")
+card_3=businessCard("Dorota", "Maciejewska", "National Record Mart", "Secondary school teacher", "DorotaMaciejewska@teleworm.us")
+card_4=businessCard("Elżbieta", "Król", "Four Leaf Clover", "EEO representative", "ElzbietaKrol@armyspy.com")
+card_5=businessCard("Gracja", "Nowak", "Budget Power", "Credit reporter", "Gracjanowak@dayrep.com")
+
+
+
+list = [card_1,card_2,card_3,card_4,card_5]
+
+
+
+
+
+for i in list:
+    print(i.name ,i.second_name , i.email)
+   
